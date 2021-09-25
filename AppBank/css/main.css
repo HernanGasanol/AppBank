@@ -1,0 +1,1235 @@
+*{
+    padding:0;
+    margin: 0;
+    font-size: large;
+    box-sizing: border-box;
+    scroll-snap-type: proximity;
+    
+}
+
+*, *:before, *:after {    
+    box-sizing: inherit;
+  
+   }  
+
+html{
+    animation: opacidad 3s ease-in-out ;
+}
+.global{          
+    margin: 0 auto;
+    width: 1400px;
+    max-width: 1400px;
+   
+
+}
+
+
+
+
+
+/* lo de arriba es propiedades de tamaño que aplican a toda la pag( todo el body)*/
+
+
+
+header{
+   /*background: linear-gradient(to bottom,rgba(0, 0, 255, 0.432) ,rgba(0, 0, 255, 0.432), rgb(0, 0, 0) 116%);  background-color:rgba(0, 0, 255, 0.432);*/
+   *background-color:rgba(0, 0, 255, 0.432);
+   background: linear-gradient(to left,rgba(0, 0, 255, 0.432) ,rgba(0, 0, 255, 0.432),rgba(212, 139, 176,100) 130%);
+  /* background-image: url(../img/like.png);
+   backdrop-filter: blur(500xp); 
+  */
+ 
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    height:700px;
+    color: white;
+   *border-bottom-right-radius: 2000px;
+    position:relative;
+
+    
+}
+
+
+
+
+
+.fondoheader{
+    
+    margin-top: 0px;
+    position:absolute;
+
+    animation: movevector 4s ease-in-out infinite ;
+
+}
+
+.intercambio{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 640px;
+    animation: opacidad 3s ease-in-out ;
+}
+/*
+.wave{
+  position:absolute;
+    margin-top: 600px;
+    
+    width:300%;
+
+
+}*/
+
+
+
+#barra  {
+    display:flex;
+    justify-content:center;
+    gap:20%;
+    padding:0.938em 0;
+    animation: opacidad 4s ease-in-out ;
+    flex-wrap: wrap;
+   
+    
+    
+}
+body{
+    margin: 0 auto;
+    width:1400px;
+
+    
+
+}
+
+
+.logoSuperior{
+    display: flex;
+    gap: 20px;
+    
+    font-size: 1.875em;
+    font-family:'Montserrat', sans-serif; ;
+    margin-left: 1.125em;
+    
+}
+
+
+.logoSuperior img{
+    animation: move_vector 4s ease-in-out infinite;
+}
+
+.logoSuperior p{
+    font-size:30px;
+
+}
+
+.accesos {
+    display:flex;
+    
+    margin-right: 10.0112496507424em;
+    gap:2.0074997671616em ;
+    list-style: none;
+    align-items:baseline ;
+   
+}
+
+.accesos a{
+    
+    font-size:0.938em;
+    text-decoration: none;
+    color: white;
+    font-family:'Montserrat', sans-serif; 
+}
+
+
+.accesos a:hover{
+    color: rgba(255, 255, 255, 0.59);
+}
+
+ button{
+    
+    border-radius: 0.75em;
+    border: none;
+    padding:12px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.103);
+    
+    color:white;
+    
+ 
+}
+.boton__robo:hover{
+    background-color:#614ad8;
+}
+
+
+.boy{
+    animation: move_vector 8s ease-in-out infinite;
+    opacity: 0;
+}
+
+
+
+/*introduccion**/
+
+
+
+#introduccion{
+    display:flex;
+    margin-left: 120px;
+    margin-top: 50px;
+  
+    
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    animation: opacidad 4s ease-in-out ;
+ 
+   
+
+    
+}
+
+#introduccion .textoPrincipal{
+   
+}
+
+@keyframes move_vector{
+    0%{
+        margin-bottom: translateY(10px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes movevector{
+    0%{
+        margin-bottom: translateY(10px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+.textoPrincipal {
+   margin-top: 40px;
+   margin-left:30px;
+   
+}
+
+
+.textoPrincipal h1{
+    
+    font-size: 70px;
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family:'Montserrat', sans-serif; 
+    
+}
+
+.textoPrincipal p{
+    font-family:'Montserrat', sans-serif; 
+    margin-left: -10px;
+    font-size:20px;
+    
+}
+
+.google-boton{
+    cursor: pointer;
+    width:210px;
+    margin-top: 50px;
+    margin-left: -14px;
+   
+
+}
+
+
+
+.appstore-boton{
+    cursor: pointer;
+    width:210px;
+    margin-left: -14px;
+
+    
+}
+
+
+
+
+/******* TERMINO UNA SECCION ****/
+
+
+
+
+
+/* trabajos*/
+
+
+.quienesnoseligen{
+    width: 1400px;
+    text-align: center;
+    height:300px ;
+    background-color:#afafaf10;
+    margin-top: 50px;
+    
+    }
+  
+    
+    .quienesnoseligen img{
+        margin-top: 50px;
+        width:200px;
+        margin: 10px;
+        padding-left: 40px;
+    }
+    
+    .jobs img{
+        margin: 0 auto;
+        margin-top: 6%;
+    }
+
+h6{ 
+    
+    margin-top: 20px;;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color:rgba(0, 0, 255, 0.432);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;}
+
+    
+    
+    .quienesnoseligen img{
+        
+        width:200px;
+       
+        
+       
+    }
+    
+        
+
+    @keyframes ola {
+        0%{  margin-left: 1200px;}
+        100% { margin-left: -1400px;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cards */ 
+
+
+.caracteristicas{
+    
+    display:flex;
+    gap:40px;
+    justify-content: center;
+    margin-top: 150px;
+    cursor: pointer;
+    
+    background:no-repeat
+    
+}
+
+
+
+.caracteristicas div{
+  
+    text-align:left;
+    padding:40px;
+    height:220px;
+    width:200px;
+    box-shadow: -1px 7px 11px -1px rgba(219,219,235,1);
+    -webkit-box-shadow: -1px 7px 11px -1px rgba(219,219,235,1);
+    -moz-box-shadow: -1px 7px 11px -1px rgba(219,219,235,1);
+    border-radius: 10px;
+}
+
+
+.caracteristicas h3{
+   
+    padding-top:20px;
+    color:#0E1B41;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.caracteristicas .segundap{
+    opacity: 0;
+} 
+.caracteristicas p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 255, 0.432);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.caracteristicas div:hover{
+    
+    margin-right: 70px;
+    margin-left: 70px;
+    height: 250px;
+    width: 200px;
+    
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    text-align:center;
+    -webkit-transform: scale(1.4); 
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.caracteristicas div:hover p{
+    
+    text-align:center;
+    opacity: 0;
+    position: absolute;
+ 
+}
+
+.caracteristicas div:hover {
+    text-align:left;
+    
+
+}
+.caracteristicas div:hover .segundap{
+    
+  opacity: 100%;
+    position:relative;
+    
+    text-decoration: none;
+}
+
+
+.caracteristicas div:hover button{
+    
+    margin-top: 15px;
+    background-color: #ffffff;
+    align-items:left;
+    width:150px;  
+    height:20px;
+    box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+    -webkit-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+    -moz-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+}
+
+.caracteristicas div:hover a{
+   
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 255, 0.432);
+    font-size: 15px ;
+    
+  
+  }
+
+.caracteristicas button:hover a{
+  
+    color: rgba(0, 0, 0, 0.748);
+}
+
+
+
+
+
+
+
+
+
+
+h2{
+    color:rgba(0, 0, 255, 0.432);
+    
+    text-align:center;
+    font-size: 30px;
+    margin-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conocemas{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 515px;
+    
+}
+
+.conocemas a{
+    text-decoration: none;
+    color: #614ad8;
+    font-family: 'Montserrat', sans-serif;
+}
+.conocemas:hover a{
+    color: #624ad8a4;
+}
+
+
+
+/* textos e imagen laterales */
+
+
+
+.info{
+   
+    
+    width:1000px;
+    margin:20px auto;
+    margin-top: 0px;
+   max-width:1400px;
+
+} 
+
+
+.info div{
+   
+    display: inline-block;
+    vertical-align: middle;
+    
+
+}
+
+.info h3{
+  
+    font-size: 40px;
+    padding: 25px 0;
+    margin-left: -40px;
+    color:rgba(0, 0, 255, 0.432);
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.info p{
+    color:#98abbb;
+    padding:20px 0;
+    margin-left: -40px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.info-izquierda .text{
+   
+    width:500px;
+    
+}
+
+
+.info-izquierda .imagen{
+    
+    width:10px;
+    margin-left: 20px;
+    text-align: right;
+    
+    
+}
+.info .conocerMas a{
+    padding:20px;
+    color:rgb(0, 0, 255,0.442);
+    text-decoration: none;
+}
+.info .conocerMas{
+    border:solid rgb(0, 0, 255,0.442);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left:-40px;
+}
+
+.conocerMas:hover{
+box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+-webkit-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+-moz-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+}
+
+
+/* ES info pero derecha, por si se quiere
+agregar otro div en sentido contrario al de arriba*/
+
+.info-derecha .text-d{
+    width:300px;
+  
+   
+}
+
+
+.info-derecha .imagen-d{
+   
+    padding-right:150px;
+    margin-left: -80px;
+    animation: move_vector 9s ease-in-out infinite;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** CAJA SECCION DE SEGURIDAD************************************/
+
+
+
+.contenedor{
+    display:flex;
+    justify-content:center;
+    margin-top: 200px;
+    height:500px;
+}
+
+.contenedortexto1{
+    
+    background-color: #f9f5fc;
+    border-radius: 10px;
+}
+
+
+
+
+.contenedor .contenedortexto1{
+    
+    padding:20px;
+    width:500px;    
+    
+}
+
+
+    
+
+.contenedortexto1{
+    display:block;
+    text-align:left;
+}
+
+.contenedortexto1 h3{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -5px;
+    color:rgba(0, 0, 255, 0.432);
+    padding-top:10px;
+    font-size: 70px;
+}
+
+.contenedortexto1 p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    color:#98abbb;
+}
+
+.contenedortexto1 {
+   /* background-image: url(../img/mockup-mejores-practicas.png);*/
+   box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+   -webkit-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+   -moz-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    background-color:white;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+.contenedortexto1 .conocerMas2 a{
+    font-size: 20px;
+    padding-top:20px;
+    color:rgb(0, 0, 255,0.442);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedortexto1 .conocerMas2{
+    box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+    -webkit-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+    -moz-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+    background-color:white;
+    width: 200px;
+    margin-top: 50px;
+    margin-left:0px;
+}
+
+.conocerMas2:hover {
+   border: solid;
+   border-color: rgb(0, 0, 255,0.442);
+    box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+-webkit-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+-moz-box-shadow: -1px 7px 11px -1px rgba(0,0,255,0.29);
+}
+
+
+/* contenedor texto2 */
+
+
+.contenedortexto2 div{
+    margin:20px;
+    width:500px;}
+
+.contenedortexto2{
+    box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -webkit-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -moz-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+   background-image: url(../img/bitparada.png );
+   background-size:cover;
+   background-repeat:no-repeat;
+   width: 550px;
+   background: linear-gradient(to left,rgba(0, 0, 255, 0.432) ,rgba(0, 0, 255, 0.432),rgba(212, 139, 176,100) 130%);
+   border-radius: 10px;
+        
+    }
+
+
+.contenedortexto2 img{
+    width: 500px;
+    animation: move_vector 4s ease-in-out infinite;
+
+}
+
+
+.contenedortexto2 a{
+        text-decoration: none;
+        color: rgb(214, 209, 209);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+.contenedortexto2 h4 {
+   color:white;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+
+
+.contenedortexto2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    
+    color:white;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Banner debajo de contenedor SEGURIDAD*/
+
+.banner{
+    background-image: url(../img/wave555.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:2000px;
+    
+    border-radius: 10px;
+    height:380px ;
+    margin: 0 auto;
+    width:1090px;
+    
+    margin-top: 15px;
+    box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -webkit-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -moz-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    
+    }
+
+/**** CONTENEDOR DE EL MENSAJE Y LAS DOS TARJETAS ****/
+.mensajeTarjetas{
+    color: rgb(27, 21, 21);
+    display:flex;
+    justify-content:center;
+    gap: 100px;
+    padding-top: 50px;
+
+}
+ /**** TODO SOBRE LAS TARJETAS****/
+      
+.mensajeTarjetas .contenedortarjetas{
+    animation: opacidad 4s ease-in-out;
+    height:90px;
+    width:500px;
+}
+
+  
+/* ESTILO A TARJETAS INDIVIDUALMENTE*/
+.tarjeta1{
+   border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align:left;
+    position: absolute;
+    box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -webkit-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -moz-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+   
+   
+ 
+}
+.tarjeta1 .im{
+    display:flex;
+    
+    gap:15px;
+    
+}
+
+.tarjeta1 p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.tarjeta1 h4{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #614ad8;
+
+}
+
+.tarjeta2{
+    border-radius: 10px;
+    margin-top: 130px;
+    background-color:white;
+    padding:20px;
+    position:relative;
+    margin-left: 130px;
+    box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+   -webkit-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+   -moz-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+   
+   
+
+}
+
+@keyframes opacidad {
+    0%{
+        opacity: 0;
+    }
+   
+   
+    100%{
+      opacity: 100%
+   }
+
+
+}
+
+    
+
+
+
+.tarjeta2 .im{
+    display:flex;
+    justify-content:left;
+    gap:15px;
+    
+}
+
+.tarjeta2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.tarjeta2 h4{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #614ad8;
+
+}
+
+
+
+/******* EL MENSAJE *******/
+
+
+.mensaje{
+    margin-top:0px;
+    display:block;
+text-align:left;
+}
+
+.mensaje h3{
+   font-family: 'Montserrat', sans-serif;
+    margin-left: -5px;
+    padding-bottom: 10px;
+    padding-top:15px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.mensaje p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.google-boton2{
+    cursor: pointer;
+    width:210px;
+    margin-top: 20px;
+    margin-left: 0px;
+   
+
+}
+
+
+
+.appstore-boton2{
+    cursor: pointer;
+    width:210px;
+    margin-left: -20px;
+
+    
+}
+
+
+
+
+
+
+
+/* CARACTERISTICAS 2*/
+
+/* las otras tarjetas*/
+
+
+
+
+
+
+
+.caracteristicas2{
+    display:flex;
+    gap:60px;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+   
+}
+
+
+
+
+.caracteristicas2 div{
+    margin-top: 80px;
+    text-align:center;
+    padding:40px;
+    height:250px;
+    width:260px;
+    box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -webkit-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    -moz-box-shadow: -2px 1px 7px 3px rgba(219,219,235,0.56);
+    border-radius: 10px;
+
+    
+
+}
+
+.caracteristicas2:hover div{
+    
+  
+}
+
+
+
+
+
+.caracteristicas2 h3{
+    
+    padding-top:20px;
+    color:rgba(0,0,255,0.442);
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.caracteristicas2 p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:  #98abbb ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h5{
+    font-size: 40px;
+    margin-top:180px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #614ad8;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+    /* SECION QUE HABLA DEL VOUMEN DE OPERACIONES 
+    DATOS ALINEADOS*/
+
+
+    .operaciones{
+        
+        margin-top: 120px;
+        text-align: left;
+        display:flex;
+        justify-content:center;
+        gap: 100px;
+      *animation: move_vector 6s ease-in-out infinite;
+       font-family: 'Montserrat', sans-serif;
+      
+    
+    }
+
+    .operaciones h3{
+        color:rgba(0, 0, 255, 0.432);
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+.operaciones p{
+    margin-top: 10px;
+    color: #98abbb;
+}
+  
+
+
+
+
+
+
+
+
+    /* ESTILO DEL LOGIN **********/
+
+.login_register{
+    margin: 0 auto;
+    max-width:1400px;
+ /*background: linear-gradient(to bottom,rgba(0, 0, 255, 0.432) ,rgba(0, 0, 255, 0.432), rgb(0, 0, 0) 116%);  background-color:rgba(0, 0, 255, 0.432);*/
+ *background-color:rgba(0, 0, 255, 0.432);
+  background: linear-gradient(to left,rgba(0, 0, 255, 0.432) ,rgba(0, 0, 255, 0.432),rgba(212, 139, 176,100));
+    
+    display:flex;
+    justify-content:space-between;
+    height:1050px;
+    margin-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width: 100%;
+    padding:20px;
+    margin: auto;
+    margin-top: 250px;
+    
+
+}
+.imagenlogin{
+    padding-top: 50px;
+    
+}
+.mujer{
+    animation: move_vector 4s ease-in-out infinite;
+    padding-left: 50px;
+}
+
+.contenedor__todo{
+    
+        width:100%;
+        max-width: 800px;
+        margin:auto;
+        position: relative;
+        margin-left:60px;
+
+}
+
+
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display:flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 110, 255, 0.385);
+
+}
+
+.caja__trasera div{
+    margin:100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 30px;
+
+
+}
+
+.caja__trasera h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    transition: all 300ms;
+    border-radius: 20px;
+
+}
+
+.caja__trasera button:hover{
+    background:white;
+    color:rgba(0, 110, 255, 0.385);
+}
+
+/* formularios */
+.contenedor__login-register{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position:relative;
+    top: -185px;
+    left: 10px;
+    transition:left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position:absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0, 110, 255, 0.385);
+
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding:10px;
+    border:none;
+    background:#F2F2F2;
+    font-size: 16px;
+    outline:none;
+    border-radius: 20px;
+    box-shadow: 2px 5px 4px rgba(62, 62, 63, 0.171);
+}
+
+.contenedor__login-register form button{
+    padding:10px 40px;
+    margin-top: 40px;
+    border:none;
+    font-size: 14px;
+    background:rgba(0, 110, 255, 0.385);
+    color:white;
+    cursor:pointer;
+    outline:none;
+    border-radius: 20px;
+
+}
+
+
+.formulario__login{
+    opacity: 1;
+    display:block;
+
+}
+
+
+.formulario__register{
+    display:none;
+
+}
+
+/* trabajando en el reposive desing */
+
+
+@media screen and (max-width: 850px) {
+
+    main{
+        margin-top: 50px;
+
+    }
+    .caja__trasera{
+        max-width:350px;
+        height: 300px;
+        flex-direction: column;
+        margin:auto;
+    }
+
+
+.caja__trasera div{
+    margin:0px;
+    position:absolute;
+}
+
+/* formularois */
+
+.contenedor__login-register{
+    top: -10px;
+    left:-5px;
+    margin:auto;
+}
+
+.contenedor__login-register form{
+    position:relative;
+}
+}
